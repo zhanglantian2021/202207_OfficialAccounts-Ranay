@@ -1,0 +1,9 @@
+id	spring-B	summer-B	winter-B	autumn-B	spring-K	summer-K	winter-K	autumn-K	spring-S	summer-S	winter-S	autumn-S
+spring-C	316	556	367	378	20	400	370	10	0	0	0	0
+summer-C	343	584	220	789	897	56	29	100	0	0	0	0
+winter-C	378	742	100	900	562	165	90	0	0	0	0	0
+autumn-C	673	673	540	50	673	673	40	50	0	0	0	0
+spring-B	0	0	0	0	280	40	570	190	18	200	30	810
+summer-B	0	0	0	0	797	36	29	109	97	56	929	111
+winter-B	0	0	0	0	162	565	10	90	52	365	90	10
+autumn-B	0	0	0	0	273	603	50	40	66	173	30	90

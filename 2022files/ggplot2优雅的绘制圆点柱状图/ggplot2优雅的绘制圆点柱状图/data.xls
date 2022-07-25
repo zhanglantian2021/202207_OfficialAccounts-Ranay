@@ -1,0 +1,20 @@
+country	year	CL	PR	Status	Region_Code	Region_Name	is_ldc	CL_2010	diff	balance
+Burkina Faso	2020	4	4	PF	2	Africa	1	3	1	negative
+Burundi	2020	6	7	NF	2	Africa	1	5	1	negative
+Central African Republic	2020	7	7	NF	2	Africa	1	5	2	negative
+Cote d'Ivoire	2020	4	5	PF	2	Africa	0	6	-2	positive
+Egypt	2020	6	6	NF	2	Africa	0	5	1	negative
+Kenya	2020	4	4	PF	2	Africa	0	3	1	negative
+Libya	2020	6	7	NF	2	Africa	0	7	-1	positive
+Malawi	2020	3	3	PF	2	Africa	1	4	-1	positive
+Mali	2020	5	6	NF	2	Africa	1	3	2	negative
+Morocco	2020	5	5	PF	2	Africa	0	4	1	negative
+Mozambique	2020	4	5	PF	2	Africa	1	3	1	negative
+Nigeria	2020	5	4	PF	2	Africa	0	4	1	negative
+Rwanda	2020	6	6	NF	2	Africa	1	5	1	negative
+Sudan	2020	6	7	NF	2	Africa	1	7	-1	positive
+United Republic of Tanzania	2020	5	5	PF	2	Africa	1	3	2	negative
+Gambia	2020	4	4	PF	2	Africa	1	5	-1	positive
+Tunisia	2020	3	2	F	2	Africa	0	5	-2	positive
+Uganda	2020	5	6	NF	2	Africa	1	4	1	negative
+Zimbabwe	2020	5	6	NF	2	Africa	0	6	-1	positive

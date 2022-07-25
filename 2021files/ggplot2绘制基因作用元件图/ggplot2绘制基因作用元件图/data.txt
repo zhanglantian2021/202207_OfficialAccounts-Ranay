@@ -1,0 +1,368 @@
+gene1	LTR	75	80	85	cis-acting element involved in low-temperature responsiveness
+gene1	LTR	1903	1908	1913	cis-acting element involved in low-temperature responsiveness
+gene1	GARE-motif	1306	1311	1316	gibberellin-responsive element
+gene1	AuxRE	210	215	220	part of an auxin-responsive element
+gene1	MBS	1084	1089	1094	MYB binding site involved in drought-inducibility
+gene1	MBS	1710	1715	1720	MYB binding site involved in drought-inducibility
+gene1	ARE	113	118	123	cis-acting regulatory element essential for the anaerobic induction
+gene1	ARE	1159	1164	1169	cis-acting regulatory element essential for the anaerobic induction
+gene1	CGTCA-motif	324	329	334	cis-acting regulatory element involved in the MeJA-responsiveness
+gene1	CGTCA-motif	1457	1462	1467	cis-acting regulatory element involved in the MeJA-responsiveness
+gene1	CGTCA-motif	1514	1519	1524	cis-acting regulatory element involved in the MeJA-responsiveness
+gene1	CGTCA-motif	1609	1614	1619	cis-acting regulatory element involved in the MeJA-responsiveness
+gene1	O2-site	842	847	852	cis-acting regulatory element involved in zein metabolism regulation
+gene1	TGACG-motif	324	329	334	cis-acting regulatory element involved in the MeJA-responsiveness
+gene1	TGACG-motif	1457	1462	1467	cis-acting regulatory element involved in the MeJA-responsiveness
+gene1	TGACG-motif	1514	1519	1524	cis-acting regulatory element involved in the MeJA-responsiveness
+gene1	TGACG-motif	1609	1614	1619	cis-acting regulatory element involved in the MeJA-responsiveness
+gene1	ABRE	433	438	443	cis-acting element involved in the abscisic acid responsiveness
+gene1	ABRE	458	463	468	cis-acting element involved in the abscisic acid responsiveness
+gene1	ABRE	1281	1286	1291	cis-acting element involved in the abscisic acid responsiveness
+gene1	ABRE	1382	1387	1392	cis-acting element involved in the abscisic acid responsiveness
+gene1	ABRE	1385	1390	1395	cis-acting element involved in the abscisic acid responsiveness
+gene1	ABRE	1394	1399	1404	cis-acting element involved in the abscisic acid responsiveness
+gene1	ABRE	1414	1419	1424	cis-acting element involved in the abscisic acid responsiveness
+gene1	ABRE	1416	1421	1426	cis-acting element involved in the abscisic acid responsiveness
+gene1	RY-element	1405	1410	1415	cis-acting regulatory element involved in seed-specific regulation
+gene2	LTR	634	639	644	cis-acting element involved in low-temperature responsiveness
+gene2	ABRE	231	236	241	cis-acting element involved in the abscisic acid responsiveness
+gene2	ABRE	256	261	266	cis-acting element involved in the abscisic acid responsiveness
+gene2	ABRE	257	262	267	cis-acting element involved in the abscisic acid responsiveness
+gene2	ABRE	550	555	560	cis-acting element involved in the abscisic acid responsiveness
+gene2	ABRE	718	723	728	cis-acting element involved in the abscisic acid responsiveness
+gene2	ABRE	1198	1203	1208	cis-acting element involved in the abscisic acid responsiveness
+gene2	ABRE	1199	1204	1209	cis-acting element involved in the abscisic acid responsiveness
+gene2	TGACG-motif	700	705	710	cis-acting regulatory element involved in the MeJA-responsiveness
+gene2	TGACG-motif	724	729	734	cis-acting regulatory element involved in the MeJA-responsiveness
+gene2	CGTCA-motif	700	705	710	cis-acting regulatory element involved in the MeJA-responsiveness
+gene2	CGTCA-motif	724	729	734	cis-acting regulatory element involved in the MeJA-responsiveness
+gene2	ARE	313	318	323	cis-acting regulatory element essential for the anaerobic induction
+gene2	ARE	743	748	753	cis-acting regulatory element essential for the anaerobic induction
+gene2	ARE	1427	1432	1437	cis-acting regulatory element essential for the anaerobic induction
+gene2	ARE	1570	1575	1580	cis-acting regulatory element essential for the anaerobic induction
+gene2	TC-rich repeats	1545	1550	1555	cis-acting element involved in defense and stress responsiveness
+gene3	TCA-element	994	999	1004	cis-acting element involved in salicylic acid responsiveness
+gene3	ARE	325	330	335	cis-acting regulatory element essential for the anaerobic induction
+gene3	ARE	561	566	571	cis-acting regulatory element essential for the anaerobic induction
+gene3	ARE	582	587	592	cis-acting regulatory element essential for the anaerobic induction
+gene3	ARE	991	996	1001	cis-acting regulatory element essential for the anaerobic induction
+gene3	ARE	1026	1031	1036	cis-acting regulatory element essential for the anaerobic induction
+gene3	ARE	1908	1913	1918	cis-acting regulatory element essential for the anaerobic induction
+gene3	CGTCA-motif	1390	1395	1400	cis-acting regulatory element involved in the MeJA-responsiveness
+gene3	CGTCA-motif	1631	1636	1641	cis-acting regulatory element involved in the MeJA-responsiveness
+gene3	CGTCA-motif	1706	1711	1716	cis-acting regulatory element involved in the MeJA-responsiveness
+gene3	CGTCA-motif	1754	1759	1764	cis-acting regulatory element involved in the MeJA-responsiveness
+gene3	TGACG-motif	1390	1395	1400	cis-acting regulatory element involved in the MeJA-responsiveness
+gene3	TGACG-motif	1631	1636	1641	cis-acting regulatory element involved in the MeJA-responsiveness
+gene3	TGACG-motif	1706	1711	1716	cis-acting regulatory element involved in the MeJA-responsiveness
+gene3	TGACG-motif	1754	1759	1764	cis-acting regulatory element involved in the MeJA-responsiveness
+gene3	ABRE	1392	1397	1402	cis-acting element involved in the abscisic acid responsiveness
+gene3	ABRE	1791	1796	1801	cis-acting element involved in the abscisic acid responsiveness
+gene3	ABRE	1838	1843	1848	cis-acting element involved in the abscisic acid responsiveness
+gene3	ABRE	1841	1846	1851	cis-acting element involved in the abscisic acid responsiveness
+gene4	LTR	1250	1255	1260	cis-acting element involved in low-temperature responsiveness
+gene4	LTR	1441	1446	1451	cis-acting element involved in low-temperature responsiveness
+gene4	TGA-element	1272	1277	1282	auxin-responsive element
+gene4	TGACG-motif	1427	1432	1437	cis-acting regulatory element involved in the MeJA-responsiveness
+gene4	GC-motif	1748	1753	1758	enhancer-like element involved in anoxic specific inducibility
+gene4	GC-motif	1856	1861	1866	enhancer-like element involved in anoxic specific inducibility
+gene4	ABRE	1147	1152	1157	cis-acting element involved in the abscisic acid responsiveness
+gene4	ABRE	1154	1159	1164	cis-acting element involved in the abscisic acid responsiveness
+gene4	ABRE	1714	1719	1724	cis-acting element involved in the abscisic acid responsiveness
+gene4	ABRE	1715	1720	1725	cis-acting element involved in the abscisic acid responsiveness
+gene4	ABRE	1822	1827	1832	cis-acting element involved in the abscisic acid responsiveness
+gene4	ABRE	1823	1828	1833	cis-acting element involved in the abscisic acid responsiveness
+gene4	ABRE	1919	1924	1929	cis-acting element involved in the abscisic acid responsiveness
+gene4	ABRE	1922	1927	1932	cis-acting element involved in the abscisic acid responsiveness
+gene4	CGTCA-motif	1427	1432	1437	cis-acting regulatory element involved in the MeJA-responsiveness
+gene4	WUN-motif	1985	1990	1995	wound-responsive element
+gene5	GC-motif	254	259	264	enhancer-like element involved in anoxic specific inducibility
+gene5	GC-motif	931	936	941	enhancer-like element involved in anoxic specific inducibility
+gene5	GC-motif	1180	1185	1190	enhancer-like element involved in anoxic specific inducibility
+gene5	ABRE	27	32	37	cis-acting element involved in the abscisic acid responsiveness
+gene5	ABRE	1237	1242	1247	cis-acting element involved in the abscisic acid responsiveness
+gene5	ABRE	1605	1610	1615	cis-acting element involved in the abscisic acid responsiveness
+gene5	ABRE	1606	1611	1616	cis-acting element involved in the abscisic acid responsiveness
+gene5	TGACG-motif	1184	1189	1194	cis-acting regulatory element involved in the MeJA-responsiveness
+gene5	TGACG-motif	1282	1287	1292	cis-acting regulatory element involved in the MeJA-responsiveness
+gene5	CGTCA-motif	1184	1189	1194	cis-acting regulatory element involved in the MeJA-responsiveness
+gene5	CGTCA-motif	1282	1287	1292	cis-acting regulatory element involved in the MeJA-responsiveness
+gene5	TCA-element	1149	1154	1159	cis-acting element involved in salicylic acid responsiveness
+gene5	TGA-element	1145	1150	1155	auxin-responsive element
+gene5	plant_AP-2-like	897	902	907	?
+gene5	LTR	275	280	285	cis-acting element involved in low-temperature responsiveness
+gene6	TGACG-motif	237	242	247	cis-acting regulatory element involved in the MeJA-responsiveness
+gene6	TGACG-motif	1813	1818	1823	cis-acting regulatory element involved in the MeJA-responsiveness
+gene6	GC-motif	1067	1072	1077	enhancer-like element involved in anoxic specific inducibility
+gene6	ABRE	1409	1414	1419	cis-acting element involved in the abscisic acid responsiveness
+gene6	ARE	917	922	927	cis-acting regulatory element essential for the anaerobic induction
+gene6	CGTCA-motif	237	242	247	cis-acting regulatory element involved in the MeJA-responsiveness
+gene6	CGTCA-motif	1813	1818	1823	cis-acting regulatory element involved in the MeJA-responsiveness
+gene6	TGA-element	46	51	56	auxin-responsive element
+gene6	GARE-motif	743	748	753	gibberellin-responsive element
+gene6	MBS	1020	1025	1030	MYB binding site involved in drought-inducibility
+gene7	TCA-element	305	310	315	cis-acting element involved in salicylic acid responsiveness
+gene7	MBS	1875	1880	1885	MYB binding site involved in drought-inducibility
+gene7	MBS	1938	1943	1948	MYB binding site involved in drought-inducibility
+gene7	LTR	1731	1736	1741	cis-acting element involved in low-temperature responsiveness
+gene7	LTR	1884	1889	1894	cis-acting element involved in low-temperature responsiveness
+gene7	O2-site	1542	1547	1552	cis-acting regulatory element involved in zein metabolism regulation
+gene7	O2-site	1706	1711	1716	cis-acting regulatory element involved in zein metabolism regulation
+gene7	O2-site	1859	1864	1869	cis-acting regulatory element involved in zein metabolism regulation
+gene7	CGTCA-motif	1660	1665	1670	cis-acting regulatory element involved in the MeJA-responsiveness
+gene7	TC-rich repeats	461	466	471	cis-acting element involved in defense and stress responsiveness
+gene7	GC-motif	1656	1661	1666	enhancer-like element involved in anoxic specific inducibility
+gene7	GC-motif	1932	1937	1942	enhancer-like element involved in anoxic specific inducibility
+gene7	TGACG-motif	1660	1665	1670	cis-acting regulatory element involved in the MeJA-responsiveness
+gene8	TGACG-motif	93	98	103	cis-acting regulatory element involved in the MeJA-responsiveness
+gene8	TGACG-motif	1030	1035	1040	cis-acting regulatory element involved in the MeJA-responsiveness
+gene8	TGACG-motif	1063	1068	1073	cis-acting regulatory element involved in the MeJA-responsiveness
+gene8	TGACG-motif	1853	1858	1863	cis-acting regulatory element involved in the MeJA-responsiveness
+gene8	ABRE	50	55	60	cis-acting element involved in the abscisic acid responsiveness
+gene8	ABRE	53	58	63	cis-acting element involved in the abscisic acid responsiveness
+gene8	ABRE	1506	1511	1516	cis-acting element involved in the abscisic acid responsiveness
+gene8	ABRE	1542	1547	1552	cis-acting element involved in the abscisic acid responsiveness
+gene8	ABRE	1890	1895	1900	cis-acting element involved in the abscisic acid responsiveness
+gene8	ABRE	1939	1944	1949	cis-acting element involved in the abscisic acid responsiveness
+gene8	ABRE	1942	1947	1952	cis-acting element involved in the abscisic acid responsiveness
+gene8	ARE	75	80	85	cis-acting regulatory element essential for the anaerobic induction
+gene8	ARE	502	507	512	cis-acting regulatory element essential for the anaerobic induction
+gene8	ARE	706	711	716	cis-acting regulatory element essential for the anaerobic induction
+gene8	ARE	1076	1081	1086	cis-acting regulatory element essential for the anaerobic induction
+gene8	ARE	1182	1187	1192	cis-acting regulatory element essential for the anaerobic induction
+gene8	TC-rich repeats	1334	1339	1344	cis-acting element involved in defense and stress responsiveness
+gene8	CGTCA-motif	93	98	103	cis-acting regulatory element involved in the MeJA-responsiveness
+gene8	CGTCA-motif	1030	1035	1040	cis-acting regulatory element involved in the MeJA-responsiveness
+gene8	CGTCA-motif	1063	1068	1073	cis-acting regulatory element involved in the MeJA-responsiveness
+gene8	CGTCA-motif	1853	1858	1863	cis-acting regulatory element involved in the MeJA-responsiveness
+gene8	O2-site	964	969	974	cis-acting regulatory element involved in zein metabolism regulation
+gene8	MBS	193	198	203	MYB binding site involved in drought-inducibility
+gene9	TGA-element	1804	1809	1814	auxin-responsive element
+gene9	TCA-element	1920	1925	1930	cis-acting element involved in salicylic acid responsiveness
+gene9	TGACG-motif	1718	1723	1728	cis-acting regulatory element involved in the MeJA-responsiveness
+gene9	GC-motif	1583	1588	1593	?
+gene9	ABRE	600	605	610	cis-acting element involved in the abscisic acid responsiveness
+gene9	ARE	1971	1976	1981	cis-acting regulatory element essential for the anaerobic induction
+gene9	CGTCA-motif	1718	1723	1728	cis-acting regulatory element involved in the MeJA-responsiveness
+gene9	MBS	1823	1828	1833	MYB binding site involved in drought-inducibility
+gene9	circadian	690	695	700	cis-acting regulatory element involved in circadian control
+gene9	TC-rich repeats	951	956	961	cis-acting element involved in defense and stress responsiveness
+gene10	ARE	277	282	287	cis-acting regulatory element essential for the anaerobic induction
+gene10	ARE	287	292	297	cis-acting regulatory element essential for the anaerobic induction
+gene10	ARE	329	334	339	cis-acting regulatory element essential for the anaerobic induction
+gene10	CGTCA-motif	775	780	785	cis-acting regulatory element involved in the MeJA-responsiveness
+gene10	CGTCA-motif	1670	1675	1680	cis-acting regulatory element involved in the MeJA-responsiveness
+gene10	TGACG-motif	775	780	785	cis-acting regulatory element involved in the MeJA-responsiveness
+gene10	TGACG-motif	1670	1675	1680	cis-acting regulatory element involved in the MeJA-responsiveness
+gene10	GC-motif	1814	1819	1824	enhancer-like element involved in anoxic specific inducibility
+gene10	ABRE	119	124	129	cis-acting element involved in the abscisic acid responsiveness
+gene10	LTR	19	24	29	cis-acting element involved in low-temperature responsiveness
+gene10	MBS	1294	1299	1304	MYB binding site involved in drought-inducibility
+gene10	GARE-motif	610	615	620	gibberellin-responsive element
+gene10	GARE-motif	620	625	630	gibberellin-responsive element
+gene11	Box II -like sequence	59	64	69	cis-acting regulatory element
+gene11	TCA-element	1	6	11	cis-acting element involved in salicylic acid responsiveness
+gene11	TCA-element	1581	1586	1591	cis-acting element involved in salicylic acid responsiveness
+gene11	ARE	584	589	594	cis-acting regulatory element essential for the anaerobic induction
+gene11	ARE	1424	1429	1434	cis-acting regulatory element essential for the anaerobic induction
+gene11	CGTCA-motif	225	230	235	cis-acting regulatory element involved in the MeJA-responsiveness
+gene11	CGTCA-motif	1003	1008	1013	cis-acting regulatory element involved in the MeJA-responsiveness
+gene11	CGTCA-motif	1198	1203	1208	cis-acting regulatory element involved in the MeJA-responsiveness
+gene11	CGTCA-motif	1440	1445	1450	cis-acting regulatory element involved in the MeJA-responsiveness
+gene11	CGTCA-motif	1591	1596	1601	cis-acting regulatory element involved in the MeJA-responsiveness
+gene11	CGTCA-motif	1753	1758	1763	cis-acting regulatory element involved in the MeJA-responsiveness
+gene11	TGACG-motif	225	230	235	cis-acting regulatory element involved in the MeJA-responsiveness
+gene11	TGACG-motif	1003	1008	1013	cis-acting regulatory element involved in the MeJA-responsiveness
+gene11	TGACG-motif	1198	1203	1208	cis-acting regulatory element involved in the MeJA-responsiveness
+gene11	TGACG-motif	1440	1445	1450	cis-acting regulatory element involved in the MeJA-responsiveness
+gene11	TGACG-motif	1591	1596	1601	cis-acting regulatory element involved in the MeJA-responsiveness
+gene11	TGACG-motif	1753	1758	1763	cis-acting regulatory element involved in the MeJA-responsiveness
+gene11	GC-motif	328	333	338	enhancer-like element involved in anoxic specific inducibility
+gene11	GC-motif	365	370	375	enhancer-like element involved in anoxic specific inducibility
+gene11	GC-motif	418	423	428	enhancer-like element involved in anoxic specific inducibility
+gene11	ABRE	179	184	189	cis-acting element involved in the abscisic acid responsiveness
+gene11	ABRE	331	336	341	cis-acting element involved in the abscisic acid responsiveness
+gene11	ABRE	634	639	644	cis-acting element involved in the abscisic acid responsiveness
+gene11	ABRE	746	751	756	cis-acting element involved in the abscisic acid responsiveness
+gene11	ABRE	747	752	757	cis-acting element involved in the abscisic acid responsiveness
+gene11	ABRE	1755	1760	1765	cis-acting element involved in the abscisic acid responsiveness
+gene11	ABRE	1801	1806	1811	cis-acting element involved in the abscisic acid responsiveness
+gene11	ABRE	1802	1807	1812	cis-acting element involved in the abscisic acid responsiveness
+gene11	ABRE	1983	1988	1993	cis-acting element involved in the abscisic acid responsiveness
+gene12	TGACG-motif	194	199	204	cis-acting regulatory element involved in the MeJA-responsiveness
+gene12	TGACG-motif	290	295	300	cis-acting regulatory element involved in the MeJA-responsiveness
+gene12	TGACG-motif	600	605	610	cis-acting regulatory element involved in the MeJA-responsiveness
+gene12	TGACG-motif	1745	1750	1755	cis-acting regulatory element involved in the MeJA-responsiveness
+gene12	ABRE	436	441	446	cis-acting element involved in the abscisic acid responsiveness
+gene12	ABRE	437	442	447	cis-acting element involved in the abscisic acid responsiveness
+gene12	ABRE	1813	1818	1823	cis-acting element involved in the abscisic acid responsiveness
+gene12	ABRE	1815	1820	1825	cis-acting element involved in the abscisic acid responsiveness
+gene12	ABRE	1816	1821	1826	cis-acting element involved in the abscisic acid responsiveness
+gene12	O2-site	681	686	691	cis-acting regulatory element involved in zein metabolism regulation
+gene12	CGTCA-motif	194	199	204	cis-acting regulatory element involved in the MeJA-responsiveness
+gene12	CGTCA-motif	290	295	300	cis-acting regulatory element involved in the MeJA-responsiveness
+gene12	CGTCA-motif	600	605	610	cis-acting regulatory element involved in the MeJA-responsiveness
+gene12	CGTCA-motif	1745	1750	1755	cis-acting regulatory element involved in the MeJA-responsiveness
+gene12	TGA-element	275	280	285	auxin-responsive element
+gene12	TGA-element	1600	1605	1610	auxin-responsive element
+gene12	GARE-motif	33	38	43	gibberellin-responsive element
+gene12	MBS	1607	1612	1617	MYB binding site involved in drought-inducibility
+gene12	Unnamed__1	1019	1024	1029	60K protein binding site
+gene13	ABRE	1008	1013	1018	cis-acting element involved in the abscisic acid responsiveness
+gene13	ABRE	1009	1014	1019	cis-acting element involved in the abscisic acid responsiveness
+gene13	ABRE	1079	1084	1089	cis-acting element involved in the abscisic acid responsiveness
+gene13	ABRE	1080	1085	1090	cis-acting element involved in the abscisic acid responsiveness
+gene13	ABRE	1955	1960	1965	cis-acting element involved in the abscisic acid responsiveness
+gene13	GCN4_motif	1517	1522	1527	cis-regulatory element involved in endosperm expression
+gene13	circadian	1417	1422	1427	cis-acting regulatory element involved in circadian control
+gene13	TGACG-motif	467	472	477	cis-acting regulatory element involved in the MeJA-responsiveness
+gene13	TGACG-motif	1643	1648	1653	cis-acting regulatory element involved in the MeJA-responsiveness
+gene13	TGACG-motif	1937	1942	1947	cis-acting regulatory element involved in the MeJA-responsiveness
+gene13	CGTCA-motif	467	472	477	cis-acting regulatory element involved in the MeJA-responsiveness
+gene13	CGTCA-motif	1643	1648	1653	cis-acting regulatory element involved in the MeJA-responsiveness
+gene13	CGTCA-motif	1937	1942	1947	cis-acting regulatory element involved in the MeJA-responsiveness
+gene13	ARE	149	154	159	cis-acting regulatory element essential for the anaerobic induction
+gene13	ARE	1118	1123	1128	cis-acting regulatory element essential for the anaerobic induction
+gene13	ARE	1225	1230	1235	cis-acting regulatory element essential for the anaerobic induction
+gene13	TCA-element	176	181	186	cis-acting element involved in salicylic acid responsiveness
+gene13	TCA-element	491	496	501	cis-acting element involved in salicylic acid responsiveness
+gene13	TCA-element	1144	1149	1154	cis-acting element involved in salicylic acid responsiveness
+gene13	TCA-element	1609	1614	1619	cis-acting element involved in salicylic acid responsiveness
+gene13	MBS	205	210	215	MYB binding site involved in drought-inducibility
+gene13	LTR	159	164	169	cis-acting element involved in low-temperature responsiveness
+gene13	LTR	1990	1995	2000	cis-acting element involved in low-temperature responsiveness
+gene14	ABRE	178	183	188	cis-acting element involved in the abscisic acid responsiveness
+gene14	ABRE	949	954	959	cis-acting element involved in the abscisic acid responsiveness
+gene14	ABRE	955	960	965	cis-acting element involved in the abscisic acid responsiveness
+gene14	ABRE	1157	1162	1167	cis-acting element involved in the abscisic acid responsiveness
+gene14	TGACG-motif	1155	1160	1165	cis-acting regulatory element involved in the MeJA-responsiveness
+gene14	TGACG-motif	1695	1700	1705	cis-acting regulatory element involved in the MeJA-responsiveness
+gene14	TGACG-motif	1825	1830	1835	cis-acting regulatory element involved in the MeJA-responsiveness
+gene14	CGTCA-motif	1155	1160	1165	cis-acting regulatory element involved in the MeJA-responsiveness
+gene14	CGTCA-motif	1695	1700	1705	cis-acting regulatory element involved in the MeJA-responsiveness
+gene14	CGTCA-motif	1825	1830	1835	cis-acting regulatory element involved in the MeJA-responsiveness
+gene14	TC-rich repeats	1466	1471	1476	cis-acting element involved in defense and stress responsiveness
+gene14	GARE-motif	992	997	1002	gibberellin-responsive element
+gene14	LTR	1366	1371	1376	cis-acting element involved in low-temperature responsiveness
+gene15	ABRE	32	37	42	cis-acting element involved in the abscisic acid responsiveness
+gene15	ABRE	1532	1537	1542	cis-acting element involved in the abscisic acid responsiveness
+gene15	ABRE	1534	1539	1544	cis-acting element involved in the abscisic acid responsiveness
+gene15	GC-motif	627	632	637	enhancer-like element involved in anoxic specific inducibility
+gene15	TGACG-motif	463	468	473	cis-acting regulatory element involved in the MeJA-responsiveness
+gene15	TGACG-motif	1164	1169	1174	cis-acting regulatory element involved in the MeJA-responsiveness
+gene15	TGACG-motif	1494	1499	1504	cis-acting regulatory element involved in the MeJA-responsiveness
+gene15	TGACG-motif	1705	1710	1715	cis-acting regulatory element involved in the MeJA-responsiveness
+gene15	CGTCA-motif	463	468	473	cis-acting regulatory element involved in the MeJA-responsiveness
+gene15	CGTCA-motif	1164	1169	1174	cis-acting regulatory element involved in the MeJA-responsiveness
+gene15	CGTCA-motif	1494	1499	1504	cis-acting regulatory element involved in the MeJA-responsiveness
+gene15	CGTCA-motif	1705	1710	1715	cis-acting regulatory element involved in the MeJA-responsiveness
+gene15	MBSI	1594	1599	1604	MYB binding site involved in flavonoid biosynthetic genes regulation
+gene15	MBS	853	858	863	MYB binding site involved in drought-inducibility
+gene15	TCA-element	785	790	795	cis-acting element involved in salicylic acid responsiveness
+gene15	LTR	1482	1487	1492	cis-acting element involved in low-temperature responsiveness
+gene15	TGA-element	1030	1035	1040	auxin-responsive element
+gene16	MBS	1694	1699	1704	MYB binding site involved in drought-inducibility
+gene16	MBS	1864	1869	1874	MYB binding site involved in drought-inducibility
+gene16	LTR	884	889	894	cis-acting element involved in low-temperature responsiveness
+gene16	ABRE	732	737	742	cis-acting element involved in the abscisic acid responsiveness
+gene16	ABRE	836	841	846	cis-acting element involved in the abscisic acid responsiveness
+gene16	ABRE	1180	1185	1190	cis-acting element involved in the abscisic acid responsiveness
+gene16	ABRE	1181	1186	1191	cis-acting element involved in the abscisic acid responsiveness
+gene16	ABRE	1767	1772	1777	cis-acting element involved in the abscisic acid responsiveness
+gene16	TGACG-motif	780	785	790	cis-acting regulatory element involved in the MeJA-responsiveness
+gene16	CGTCA-motif	780	785	790	cis-acting regulatory element involved in the MeJA-responsiveness
+gene16	ARE	180	185	190	cis-acting regulatory element essential for the anaerobic induction
+gene16	ARE	288	293	298	cis-acting regulatory element essential for the anaerobic induction
+gene16	ARE	299	304	309	cis-acting regulatory element essential for the anaerobic induction
+gene16	ARE	1690	1695	1700	cis-acting regulatory element essential for the anaerobic induction
+gene17	TCA-element	779	784	789	cis-acting element involved in salicylic acid responsiveness
+gene17	TGA-element	415	420	425	auxin-responsive element
+gene17	TGA-element	535	540	545	auxin-responsive element
+gene17	TGA-element	661	666	671	auxin-responsive element
+gene17	ABRE	374	379	384	cis-acting element involved in the abscisic acid responsiveness
+gene17	ABRE	376	381	386	cis-acting element involved in the abscisic acid responsiveness
+gene17	ABRE	377	382	387	cis-acting element involved in the abscisic acid responsiveness
+gene17	ABRE	1783	1788	1793	cis-acting element involved in the abscisic acid responsiveness
+gene17	TGACG-motif	575	580	585	cis-acting regulatory element involved in the MeJA-responsiveness
+gene17	TGACG-motif	1520	1525	1530	cis-acting regulatory element involved in the MeJA-responsiveness
+gene17	CGTCA-motif	575	580	585	cis-acting regulatory element involved in the MeJA-responsiveness
+gene17	CGTCA-motif	1520	1525	1530	cis-acting regulatory element involved in the MeJA-responsiveness
+gene17	ARE	830	835	840	cis-acting regulatory element essential for the anaerobic induction
+gene18	MBS	1476	1481	1486	MYB binding site involved in drought-inducibility
+gene18	MBS	1914	1919	1924	MYB binding site involved in drought-inducibility
+gene18	TCA-element	782	787	792	cis-acting element involved in salicylic acid responsiveness
+gene18	TCA-element	1940	1945	1950	cis-acting element involved in salicylic acid responsiveness
+gene18	TGA-element	1111	1116	1121	auxin-responsive element
+gene18	Unnamed__1	374	379	384	60K protein binding site
+gene18	circadian	945	950	955	cis-acting regulatory element involved in circadian control
+gene18	ABRE	1195	1200	1205	cis-acting element involved in the abscisic acid responsiveness
+gene18	ABRE	1548	1553	1558	cis-acting element involved in the abscisic acid responsiveness
+gene18	ABRE	1755	1760	1765	cis-acting element involved in the abscisic acid responsiveness
+gene18	ABRE	1796	1801	1806	cis-acting element involved in the abscisic acid responsiveness
+gene18	GC-motif	1159	1164	1169	enhancer-like element involved in anoxic specific inducibility
+gene18	GC-motif	1448	1453	1458	enhancer-like element involved in anoxic specific inducibility
+gene18	TGACG-motif	1399	1404	1409	cis-acting regulatory element involved in the MeJA-responsiveness
+gene18	CGTCA-motif	1399	1404	1409	cis-acting regulatory element involved in the MeJA-responsiveness
+gene18	O2-site	799	804	809	cis-acting regulatory element involved in zein metabolism regulation
+gene18	AuxRR-core	311	316	321	cis-acting regulatory element involved in auxin responsiveness
+gene18	TC-rich repeats	329	334	339	cis-acting element involved in defense and stress responsiveness
+gene19	MBS	897	902	907	MYB binding site involved in drought-inducibility
+gene19	LTR	1148	1153	1158	cis-acting element involved in low-temperature responsiveness
+gene19	LTR	1856	1861	1866	cis-acting element involved in low-temperature responsiveness
+gene19	LTR	1878	1883	1888	cis-acting element involved in low-temperature responsiveness
+gene19	LTR	1923	1928	1933	cis-acting element involved in low-temperature responsiveness
+gene19	ABRE	837	842	847	cis-acting element involved in the abscisic acid responsiveness
+gene19	ABRE	838	843	848	cis-acting element involved in the abscisic acid responsiveness
+gene19	ABRE	925	930	935	cis-acting element involved in the abscisic acid responsiveness
+gene19	ABRE	971	976	981	cis-acting element involved in the abscisic acid responsiveness
+gene19	ABRE	995	1000	1005	cis-acting element involved in the abscisic acid responsiveness
+gene19	ABRE	996	1001	1006	cis-acting element involved in the abscisic acid responsiveness
+gene19	ABRE	1067	1072	1077	cis-acting element involved in the abscisic acid responsiveness
+gene19	ABRE	1068	1073	1078	cis-acting element involved in the abscisic acid responsiveness
+gene19	ABRE	1094	1099	1104	cis-acting element involved in the abscisic acid responsiveness
+gene19	ABRE	1501	1506	1511	cis-acting element involved in the abscisic acid responsiveness
+gene19	ABRE	1504	1509	1514	cis-acting element involved in the abscisic acid responsiveness
+gene19	ABRE	1967	1972	1977	cis-acting element involved in the abscisic acid responsiveness
+gene19	TGACG-motif	85	90	95	cis-acting regulatory element involved in the MeJA-responsiveness
+gene19	TGACG-motif	97	102	107	cis-acting regulatory element involved in the MeJA-responsiveness
+gene19	TGACG-motif	731	736	741	cis-acting regulatory element involved in the MeJA-responsiveness
+gene19	TGACG-motif	1536	1541	1546	cis-acting regulatory element involved in the MeJA-responsiveness
+gene19	CGTCA-motif	85	90	95	cis-acting regulatory element involved in the MeJA-responsiveness
+gene19	CGTCA-motif	97	102	107	cis-acting regulatory element involved in the MeJA-responsiveness
+gene19	CGTCA-motif	731	736	741	cis-acting regulatory element involved in the MeJA-responsiveness
+gene19	CGTCA-motif	1536	1541	1546	cis-acting regulatory element involved in the MeJA-responsiveness
+gene19	ARE	331	336	341	cis-acting regulatory element essential for the anaerobic induction
+gene19	ARE	654	659	664	cis-acting regulatory element essential for the anaerobic induction
+gene19	ARE	1145	1150	1155	cis-acting regulatory element essential for the anaerobic induction
+gene19	ARE	1350	1355	1360	cis-acting regulatory element essential for the anaerobic induction
+gene19	ARE	1377	1382	1387	cis-acting regulatory element essential for the anaerobic induction
+gene19	MBSI	1882	1887	1892	MYB binding site involved in flavonoid biosynthetic genes regulation
+gene20	CGTCA-motif	202	207	212	cis-acting regulatory element involved in the MeJA-responsiveness
+gene20	CGTCA-motif	1182	1187	1192	cis-acting regulatory element involved in the MeJA-responsiveness
+gene20	CGTCA-motif	1243	1248	1253	cis-acting regulatory element involved in the MeJA-responsiveness
+gene20	CGTCA-motif	1246	1251	1256	cis-acting regulatory element involved in the MeJA-responsiveness
+gene20	ARE	134	139	144	cis-acting regulatory element essential for the anaerobic induction
+gene20	ARE	216	221	226	cis-acting regulatory element essential for the anaerobic induction
+gene20	GC-motif	466	471	476	enhancer-like element involved in anoxic specific inducibility
+gene20	GC-motif	737	742	747	enhancer-like element involved in anoxic specific inducibility
+gene20	GC-motif	1881	1886	1891	enhancer-like element involved in anoxic specific inducibility
+gene20	ABRE	1517	1522	1527	cis-acting element involved in the abscisic acid responsiveness
+gene20	ABRE	1519	1524	1529	cis-acting element involved in the abscisic acid responsiveness
+gene20	ABRE	1560	1565	1570	cis-acting element involved in the abscisic acid responsiveness
+gene20	ABRE	1656	1661	1666	cis-acting element involved in the abscisic acid responsiveness
+gene20	TGACG-motif	202	207	212	cis-acting regulatory element involved in the MeJA-responsiveness
+gene20	TGACG-motif	1182	1187	1192	cis-acting regulatory element involved in the MeJA-responsiveness
+gene20	TGACG-motif	1243	1248	1253	cis-acting regulatory element involved in the MeJA-responsiveness
+gene20	TGACG-motif	1246	1251	1256	cis-acting regulatory element involved in the MeJA-responsiveness
+gene20	GARE-motif	818	823	828	gibberellin-responsive element
+gene20	LTR	79	84	89	cis-acting element involved in low-temperature responsiveness
+gene20	TGA-element	657	662	667	auxin-responsive element
+gene20	TGA-element	838	843	848	auxin-responsive element
+gene21	3-AF3 binding site	1901	1906	1911	part of a conserved DNA module array (CMA3)
+gene21	GARE-motif	1126	1131	1136	gibberellin-responsive element
+gene21	CGTCA-motif	1557	1562	1567	cis-acting regulatory element involved in the MeJA-responsiveness
+gene21	TGACG-motif	1557	1562	1567	cis-acting regulatory element involved in the MeJA-responsiveness
+gene21	GC-motif	1151	1156	1161	enhancer-like element involved in anoxic specific inducibility
+gene21	GC-motif	1489	1494	1499	enhancer-like element involved in anoxic specific inducibility
+gene21	GC-motif	1616	1621	1626	enhancer-like element involved in anoxic specific inducibility
+gene21	ABRE	1797	1802	1807	cis-acting element involved in the abscisic acid responsiveness

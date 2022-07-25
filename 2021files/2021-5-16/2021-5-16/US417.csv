@@ -1,0 +1,111 @@
+source,target,weight
+China,USA,1051.938782
+France,USA,865.187056
+Canada,USA,679.116965
+Italy,USA,453.25478
+Rep. of Korea,USA,422.299543
+United Kingdom,USA,267.020942
+Germany,USA,214.079849
+Japan,USA,176.264592
+Mexico,USA,157.810299
+Belgium,USA,113.922534
+France,United Kingdom,498.874838
+USA,United Kingdom,473.207109
+China,United Kingdom,287.056578
+Germany,United Kingdom,251.98508
+Italy,United Kingdom,137.635455
+Poland,United Kingdom,131.246961
+Ireland,United Kingdom,110.820921
+Netherlands,United Kingdom,96.111404
+Belgium,United Kingdom,90.706223
+Spain,United Kingdom,68.224224
+France,Rep. of Korea,289.296168
+USA,Rep. of Korea,237.385604
+Japan,Rep. of Korea,165.311035
+Germany,Rep. of Korea,40.414653
+Italy,Rep. of Korea,38.148029
+Canada,Rep. of Korea,36.940713
+United Kingdom,Rep. of Korea,33.82341
+Ireland,Rep. of Korea,32.634356
+China,Rep. of Korea,18.544168
+Israel,Rep. of Korea,13.684626
+USA,Mexico,226.511694
+France,Mexico,82.847456
+China,Mexico,43.56481
+Colombia,Mexico,35.025674
+Italy,Mexico,24.254985
+Brazil,Mexico,22.989476
+Spain,Mexico,21.995938
+Canada,Mexico,21.658721
+Poland,Mexico,16.581197
+Germany,Mexico,12.920873
+France,Japan,442.10384
+USA,Japan,213.139111
+Rep. of Korea,Japan,155.118636
+China,Japan,88.859619
+United Kingdom,Japan,64.351888
+Italy,Japan,37.08459
+Viet Nam,Japan,34.965146
+Thailand,Japan,33.559745
+Germany,Japan,32.429014
+Belgium,Japan,20.590441
+France,Italy,588.827196
+Germany,Italy,168.726971
+Spain,Italy,51.729054
+Poland,Italy,44.572053
+United Kingdom,Italy,41.804058
+China,Italy,39.049862
+USA,Italy,35.310138
+Netherlands,Italy,28.09322
+Austria,Italy,24.954894
+Belgium,Italy,15.526716
+France,Germany,618.199629
+Switzerland,Germany,352.071814
+Italy,Germany,261.951268
+USA,Germany,224.107005
+Poland,Germany,169.597509
+United Kingdom,Germany,129.693467
+China,Germany,119.005677
+Austria,Germany,108.346134
+Spain,Germany,81.963411
+Netherlands,Germany,75.904406
+Italy,France,371.319514
+USA,France,288.748904
+Germany,France,229.658257
+Switzerland,France,96.056415
+"Areas, nes",France,89.453361
+Spain,France,70.301805
+Ireland,France,63.65857
+Japan,France,62.586002
+China,France,62.308431
+United Kingdom,France,61.451065
+Rep. of Korea,China,1508.197455
+France,China,1427.464093
+Japan,China,1207.678192
+USA,China,569.500419
+United Kingdom,China,259.915376
+Belgium,China,120.129968
+Spain,China,119.835238
+Australia,China,111.669812
+"Other Asia, nes",China,93.692518
+Germany,China,82.076847
+USA,Canada,923.767496
+France,Canada,172.231894
+Italy,Canada,120.585986
+China,Canada,78.964152
+Germany,Canada,49.634722
+Rep. of Korea,Canada,42.520217
+United Kingdom,Canada,33.758835
+Japan,Canada,27.483552
+Switzerland,Canada,19.804656
+Belgium,Canada,17.087192
+United Kingdom,Belgium,266.790557
+France,Belgium,225.694563
+Netherlands,Belgium,197.608265
+Poland,Belgium,124.774223
+USA,Belgium,96.500001
+Germany,Belgium,55.052189
+China,Belgium,54.905783
+Switzerland,Belgium,24.410028
+Italy,Belgium,24.206289
+Canada,Belgium,8.805634

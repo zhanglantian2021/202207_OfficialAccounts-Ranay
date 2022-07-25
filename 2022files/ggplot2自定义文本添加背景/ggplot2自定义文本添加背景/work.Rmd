@@ -1,0 +1,127 @@
+---
+title: "ggplot2优雅的给文本添加背景"
+author:
+  - 阎俊安 2022-01-14
+documentclass: ctexart
+keywords:
+  - ggplot2
+
+geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
+output:
+  rticles::ctex:
+    fig_caption: yes
+    number_sections: yes
+    toc: yes
+---
+
+本节来介绍如何使用**ggplot2**来给图像文本添加阴影，下面通过两个小栗子来进行展示
+
+# 安装并加载R包
+
+```{r,eval=FALSE}
+package.list=c("tidyverse","grid","GGally","aplot")
+
+for (package in package.list) {
+  if (!require(package,character.only=T, quietly=T)) {
+    install.packages(package)
+    library(package, character.only=T)
+  }
+}
+```
+
+# 导入数据
+
+
+```{r,eval=FALSE}
+load("data.Rdata")
+```
+# 修改默认主题
+
+```{r,eval=FALSE}
+element_custom <- function(...) {
+  structure(list(...), class = c("element_custom", "element_blank"))
+}
+
+element_grob.element_custom <- function(element, label, x,y, ...)  {
+  tg <- textGrob(label, y=y,gp=gpar(col=element$colour))
+  padding <- unit(0.1,"line")
+  rg <- rectGrob(y=y,width=grobWidth(tg)+padding,height=unit(1,"line")+padding, 
+                 gp=gpar(fill = element$fill, col=NA, alpha=0.1))
+  gTree(children=gList(rg, tg),width=grobWidth(tg) + padding, cl="custom_axis")
+}
+
+widthDetails.custom_axis <- function(x) x$width + unit(1,"mm") 
+```
+# 案例一
+```{r,eval=FALSE}
+df %>% ggplot(.,aes(X1,name,color=value,fill=value))+
+  geom_tile(color="grey80",fill="white",size=0.5)+
+  geom_point(pch=22,size=5)+
+  geom_text(aes(label=signif),size=3,color="black")+
+  labs(x = NULL,y = NULL,color=NULL)+
+  scale_color_manual(values=color)+
+  scale_fill_manual(values=color)+
+  scale_x_discrete(expand=c(0,0)) +
+  scale_y_discrete(expand=c(0,0),position="left")+
+  theme_classic()+
+  theme(axis.text.y = element_custom(colour="black",fill=c("grey20","white")),
+        axis.ticks.y=element_blank(),
+        axis.text.x=element_text(angle = 90,color="black",size=10,vjust=0.5),
+        legend.position = "non")
+``` 
+
+```{r pressure-0,echo=FALSE,out.width='100%',width=5.84,height=5.95,dpi=300}
+knitr::include_graphics("Figure-1.pdf")
+```
+
+可以看到过程及其繁琐也不便于理解，而且文本大小也增大了显的不兼容，那么改如何解决；答曰**拼图**,绘制一张主图,在绘制阴影文本图,**aplot**进行拼接完美解决问题，下面来看具体操作
+
+# 案例二
+
+* 主图绘制
+
+```{r,eval=FALSE}
+p1 <- df %>% ggplot(.,aes(X1,name,color=value,fill=value))+
+  geom_tile(color="grey80",fill="white",size=0.5)+
+  geom_point(pch=22,size=5)+
+  geom_text(aes(label=signif),size=3,color="black")+
+  labs(x = NULL,y = NULL,color=NULL)+
+  scale_color_manual(values=color)+
+  scale_fill_manual(values=color)+
+  scale_x_discrete(expand=c(0,0)) +
+  scale_y_discrete(expand=c(0,0),position="left")+
+  theme(axis.text.y = element_blank(),
+        axis.ticks.y=element_blank(),
+        axis.text.x=element_text(angle = 90,color="black",size=10,vjust=0.5),
+        legend.position = "non")
+```
+```{r pressure-1,echo=FALSE,out.width='100%',width=5.84,height=5.95,dpi=300}
+knitr::include_graphics("Figure-2.pdf")
+```
+
+```{r,eval=FALSE}
+p2 <- df %>% select(name) %>% distinct() %>% mutate(group="A") %>% 
+  ggplot(aes(group,name))+
+  geom_text(aes(group,name,label=name),size=3,color="black") +
+  geom_stripped_rows()+
+  theme(panel.grid.major = element_blank(),
+        axis.text=element_blank(),
+        axis.ticks = element_blank(),
+        axis.title = element_blank())
+```
+```{r pressure-2,echo=FALSE,out.width='100%',width=5.84,height=5.95,dpi=300}
+knitr::include_graphics("Figure-3.pdf")
+```
+
+# 拼图
+
+在此使用Y叔开发的**aplot**进行拼图
+
+```{r,eval=FALSE}
+p1 %>% insert_left(p2,width = 0.3)
+```
+
+```{r pressure-3,echo=FALSE,out.width='100%',width=5.84,height=5.95,dpi=300}
+knitr::include_graphics("Figure-4.pdf")
+```
+

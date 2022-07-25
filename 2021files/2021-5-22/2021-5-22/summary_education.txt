@@ -1,0 +1,7 @@
+education	avg_salary	salary	order	index_edu	index	group
+High School	76006.0709876543	$70,000 - $80,000	70000	1	5	1-5
+Some college	79984.7876106195	$70,000 - $80,000	70000	2	5	2-5
+College degree	88249.7807125307	$80,000 - $90,000	80000	3	6	3-6
+Master's degree	92115.6227517294	$90,000 - $100,000	90000	5	7	5-7
+PhD	109636.021715527	$100,000 - $110,000	1e+05	6	8	6-8
+Professional degree (MD, JD, etc.)	137763.15915628	$130,000 - $140,000	130000	4	11	4-11

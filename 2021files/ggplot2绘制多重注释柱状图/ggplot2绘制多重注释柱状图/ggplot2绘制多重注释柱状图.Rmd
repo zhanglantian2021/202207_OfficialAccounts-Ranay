@@ -1,0 +1,119 @@
+---
+title: "ggplot2绘制多重注释柱状图"
+author: "R语言数据分析指南"
+date: "`2021-09-23`"
+output:
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+    toc: true
+toc-title: "目录"
+---
+
+>本节来介绍如何使用`ggh4x`来绘制多重注释柱状图，欢迎扫描下方二维码关注公众号，下回更新不迷路
+
+```{r,echo=FALSE,out.width='35%',fig.align='center',fig.cap=''}
+
+knitr::include_graphics("code.jpg")
+
+```
+
+## 1.加载R包
+
+```{r,message=FALSE,warning=FALSE}
+pacman::p_load(tidyverse,scales,ggh4x,magrittr,patchwork)
+```
+## 2.数据过滤
+
+```{r,message=FALSE,warning=FALSE}
+computed_persent <- function(path) {
+  data <- path %>%read.delim(check.names = F,sep="\t",row.names = 1) %>% 
+    t() %>% as.data.frame()
+  data2 <- data %>%mutate(sum=rowSums(.),persent = sum / sum(sum) * 100, 
+           sum = NULL,) %>% rbind(filter(., persent < 0.1) %>% colSums()) %>%
+    mutate(Taxa = c(data %>% rownames(), "others"))
+  filter(data2[1:(nrow(data2) - 1),], persent > 0.1) %>%
+    rbind(data2[nrow(data2),]) %>%select(ncol(.), 1:(ncol(.) - 2)) %>%
+    set_rownames(seq_len(nrow(.))) %>%return()
+}
+
+```
+
+## 3.数据整合
+
+
+```{r,message=FALSE,warning=FALSE}
+otu_taxa <- computed_persent("otu.xls") %>% 
+  pivot_longer(cols = !Taxa,names_to = "Samples",
+               values_to = "number") %>% arrange(desc(number))
+meta_taxa <- read.delim("taxa.xls",check.names = F,sep="\t") %>% 
+  inner_join(.,otu_taxa,by="Samples")
+meta_taxa$Taxa <- factor(meta_taxa$Taxa,levels = unique(meta_taxa$Taxa))
+```
+
+## 4.定义调色板
+
+```{r,message=FALSE,warning=FALSE}
+palette <- c("#709AE1FF","#8A9197FF","#D2AF81FF","#FD7446FF","#D5E4A2FF","#197EC0FF","#F05C3BFF",
+             "#46732EFF","#71D0F5FF","#370335FF","#075149FF","#C80813FF","#91331FFF","#1A9993FF")
+
+pal <- c("#E64B35FF","#4DBBD5FF","#00A087FF","#3C5488FF","#F39B7FFF","#3C5488FF","#F39B7FFF",
+         "#3C5488FF","#F39B7FFF","#8491B4FF","#91D1C2FF","#FF0000","#4DBBD5FF","#00A087FF",
+         "#91D1C2FF","#FF0000","#4DBBD5FF","#00A087FF","#3C5488FF","#FF0000","#3C5488FF",
+         "#00A087FF", "#91D1C2FF","#868686FF","#FF0000")
+```
+
+## 5.绘制堆砌条形图
+
+```{r,message=FALSE,warning=FALSE,out.width='80%',fig.height=5,fig.width=12,fig.align='center',fig.cap=''}
+p2 <- ggplot(meta_taxa,aes(Samples,number,fill=Taxa))+
+  geom_col(position="stack") +
+  facet_nested(.~Type+Trial+Day,drop=T,scale="free",space="free",switch="x",
+               strip =strip_nested(background_x = elem_list_rect(fill =pal),by_layer_x = F))+
+  scale_fill_manual(values=palette)+
+  labs(x=NULL, y="Percent Phyla Abundance")+
+  scale_y_continuous(expand = c(0,0),labels=scales::percent)+
+  theme(strip.background = element_rect(fill="white",color="black"),
+        panel.spacing = unit(0,"lines"),
+        strip.text.x = element_text(size=8,color="black"),
+        axis.text.y=element_text(size=8,color="black"),
+        axis.title.y = element_text(size=10,color="black"),
+        axis.text.x = element_blank(),axis.ticks.x = element_blank(),
+        legend.key=element_blank(), legend.text = element_text(color="black",size=10),
+        legend.spacing.x=unit(0.1,'cm'),legend.key.width=unit(0.5,'cm'),
+        legend.key.height=unit(0.5,'cm'), legend.background=element_blank(),
+        panel.grid.major=element_blank(),panel.grid.minor=element_blank())+
+  labs(fill="Phylum")
+
+p2
+```
+
+## 6.绘制条形图
+
+```{r,message=FALSE,warning=FALSE}
+p1 <- ggplot(meta_taxa,aes(Samples,ReadCount,fill=Group))+
+  geom_col(width = 0.9)+theme_grey()+
+  labs(y="Read Abundance",x=NULL)+
+  scale_fill_manual(values=c("light blue","dark red"))+
+  facet_nested(.~Type,drop=TRUE,scale="free",space="free")+
+  scale_x_discrete(expand=c(0,0)) +
+  scale_y_continuous(expand = c(0,0),labels=scales::scientific_format(digits=1))+
+  theme(strip.text = element_blank(),axis.ticks.x = element_blank(),
+        panel.background = element_rect(fill='white'),panel.spacing = unit(0.01,"lines"),
+        axis.text.y=element_text(size=8,color="black"),axis.title.y =element_blank(),
+        axis.text.x = element_blank(),legend.key=element_blank(),
+        legend.text = element_text(color="black",size=10),
+        legend.spacing.x=unit(0.1,'cm'),legend.key.width=unit(0.5,'cm'),
+        legend.key.height=unit(0.5,'cm'),legend.background=element_blank(),
+        panel.grid.major=element_blank(),panel.grid.minor=element_blank())
+```
+
+## 7.拼图
+
+```{r,message=FALSE,warning=FALSE,out.width='80%',fig.height=8,fig.width=12,fig.align='center',fig.cap=''}
+p1/p2+plot_layout(ncol = 1, heights = c(1,3))
+```
+
+
+
+

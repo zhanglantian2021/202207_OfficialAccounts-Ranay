@@ -1,0 +1,145 @@
+industry	education	avg_salary	salary	order	index	index_ind	index_edu	group	group2
+Education (Primary/Secondary)	High School	32000	$30,000 - $40,000	30000	1	3	1	Education (Primary/Secondary)-$30,000 - $40,000	High School-$30,000 - $40,000
+Leisure, Sport & Tourism	High School	31200	$30,000 - $40,000	30000	1	6	1	Leisure, Sport & Tourism-$30,000 - $40,000	High School-$30,000 - $40,000
+Retail	High School	38861.16	$30,000 - $40,000	30000	1	2	1	Retail-$30,000 - $40,000	High School-$30,000 - $40,000
+Retail	PhD	39520	$30,000 - $40,000	30000	1	2	6	Retail-$30,000 - $40,000	PhD-$30,000 - $40,000
+Retail	Professional degree (MD, JD, etc.)	39140.3333333333	$30,000 - $40,000	30000	1	2	4	Retail-$30,000 - $40,000	Professional degree (MD, JD, etc.)-$30,000 - $40,000
+Agriculture or Forestry	Some college	48087.0909090909	$40,000 - $50,000	40000	2	10	2	Agriculture or Forestry-$40,000 - $50,000	Some college-$40,000 - $50,000
+Education (Primary/Secondary)	Some college	43717.4444444444	$40,000 - $50,000	40000	2	3	2	Education (Primary/Secondary)-$40,000 - $50,000	Some college-$40,000 - $50,000
+Hospitality & Events	High School	41423.3333333333	$40,000 - $50,000	40000	2	4	1	Hospitality & Events-$40,000 - $50,000	High School-$40,000 - $50,000
+Leisure, Sport & Tourism	PhD	42000	$40,000 - $50,000	40000	2	6	6	Leisure, Sport & Tourism-$40,000 - $50,000	PhD-$40,000 - $50,000
+Leisure, Sport & Tourism	Some college	40654	$40,000 - $50,000	40000	2	6	2	Leisure, Sport & Tourism-$40,000 - $50,000	Some college-$40,000 - $50,000
+Nonprofits	High School	46827.6	$40,000 - $50,000	40000	2	8	1	Nonprofits-$40,000 - $50,000	High School-$40,000 - $50,000
+Retail	Some college	49828.6097560976	$40,000 - $50,000	40000	2	2	2	Retail-$40,000 - $50,000	Some college-$40,000 - $50,000
+Social Work	College degree	44807.6226415094	$40,000 - $50,000	40000	2	1	3	Social Work-$40,000 - $50,000	College degree-$40,000 - $50,000
+Social Work	Some college	41947	$40,000 - $50,000	40000	2	1	2	Social Work-$40,000 - $50,000	Some college-$40,000 - $50,000
+Art & Design	High School	54500	$50,000 - $60,000	50000	3	7	1	Art & Design-$50,000 - $60,000	High School-$50,000 - $60,000
+Art & Design	PhD	55000	$50,000 - $60,000	50000	3	7	6	Art & Design-$50,000 - $60,000	PhD-$50,000 - $60,000
+Business or Consulting	High School	59053.3333333333	$50,000 - $60,000	50000	3	22	1	Business or Consulting-$50,000 - $60,000	High School-$50,000 - $60,000
+Education (Higher Education)	High School	54390.9090909091	$50,000 - $60,000	50000	3	5	1	Education (Higher Education)-$50,000 - $60,000	High School-$50,000 - $60,000
+Education (Higher Education)	Some college	58293.3947368421	$50,000 - $60,000	50000	3	5	2	Education (Higher Education)-$50,000 - $60,000	Some college-$50,000 - $60,000
+Education (Primary/Secondary)	College degree	50141.397260274	$50,000 - $60,000	50000	3	3	3	Education (Primary/Secondary)-$50,000 - $60,000	College degree-$50,000 - $60,000
+Government and Public Administration	Some college	57483.8148148148	$50,000 - $60,000	50000	3	14	2	Government and Public Administration-$50,000 - $60,000	Some college-$50,000 - $60,000
+Health care	High School	55924.5555555556	$50,000 - $60,000	50000	3	18	1	Health care-$50,000 - $60,000	High School-$50,000 - $60,000
+Hospitality & Events	Some college	57158.8888888889	$50,000 - $60,000	50000	3	4	2	Hospitality & Events-$50,000 - $60,000	Some college-$50,000 - $60,000
+Property or Construction	High School	52580	$50,000 - $60,000	50000	3	9	1	Property or Construction-$50,000 - $60,000	High School-$50,000 - $60,000
+Recruitment or HR	High School	59620	$50,000 - $60,000	50000	3	12	1	Recruitment or HR-$50,000 - $60,000	High School-$50,000 - $60,000
+Social Work	Professional degree (MD, JD, etc.)	57500	$50,000 - $60,000	50000	3	1	4	Social Work-$50,000 - $60,000	Professional degree (MD, JD, etc.)-$50,000 - $60,000
+Transport or Logistics	Some college	58547.2058823529	$50,000 - $60,000	50000	3	11	2	Transport or Logistics-$50,000 - $60,000	Some college-$50,000 - $60,000
+Accounting, Banking & Finance	Some college	68513.7553956835	$60,000 - $70,000	60000	4	19	2	Accounting, Banking & Finance-$60,000 - $70,000	Some college-$60,000 - $70,000
+Education (Higher Education)	College degree	61130.876984127	$60,000 - $70,000	60000	4	5	3	Education (Higher Education)-$60,000 - $70,000	College degree-$60,000 - $70,000
+Education (Higher Education)	Master's degree	66043.2952755906	$60,000 - $70,000	60000	4	5	5	Education (Higher Education)-$60,000 - $70,000	Master's degree-$60,000 - $70,000
+Education (Primary/Secondary)	Professional degree (MD, JD, etc.)	67879.8823529412	$60,000 - $70,000	60000	4	3	4	Education (Primary/Secondary)-$60,000 - $70,000	Professional degree (MD, JD, etc.)-$60,000 - $70,000
+Health care	Some college	62802.52	$60,000 - $70,000	60000	4	18	2	Health care-$60,000 - $70,000	Some college-$60,000 - $70,000
+Hospitality & Events	College degree	67343.1538461538	$60,000 - $70,000	60000	4	4	3	Hospitality & Events-$60,000 - $70,000	College degree-$60,000 - $70,000
+Insurance	High School	61132.7222222222	$60,000 - $70,000	60000	4	16	1	Insurance-$60,000 - $70,000	High School-$60,000 - $70,000
+Law	College degree	66386.3939393939	$60,000 - $70,000	60000	4	24	3	Law-$60,000 - $70,000	College degree-$60,000 - $70,000
+Law	Some college	64314.2444444444	$60,000 - $70,000	60000	4	24	2	Law-$60,000 - $70,000	Some college-$60,000 - $70,000
+Leisure, Sport & Tourism	College degree	69449.4	$60,000 - $70,000	60000	4	6	3	Leisure, Sport & Tourism-$60,000 - $70,000	College degree-$60,000 - $70,000
+Nonprofits	College degree	68557.4712525667	$60,000 - $70,000	60000	4	8	3	Nonprofits-$60,000 - $70,000	College degree-$60,000 - $70,000
+Nonprofits	Some college	68587.9733333333	$60,000 - $70,000	60000	4	8	2	Nonprofits-$60,000 - $70,000	Some college-$60,000 - $70,000
+Property or Construction	Some college	62091.2142857143	$60,000 - $70,000	60000	4	9	2	Property or Construction-$60,000 - $70,000	Some college-$60,000 - $70,000
+Retail	College degree	64044.745	$60,000 - $70,000	60000	4	2	3	Retail-$60,000 - $70,000	College degree-$60,000 - $70,000
+Social Work	Master's degree	61829.1455696203	$60,000 - $70,000	60000	4	1	5	Social Work-$60,000 - $70,000	Master's degree-$60,000 - $70,000
+Transport or Logistics	High School	67612.0666666667	$60,000 - $70,000	60000	4	11	1	Transport or Logistics-$60,000 - $70,000	High School-$60,000 - $70,000
+Accounting, Banking & Finance	High School	71749.8571428571	$70,000 - $80,000	70000	5	19	1	Accounting, Banking & Finance-$70,000 - $80,000	High School-$70,000 - $80,000
+Agriculture or Forestry	College degree	71091.4666666667	$70,000 - $80,000	70000	5	10	3	Agriculture or Forestry-$70,000 - $80,000	College degree-$70,000 - $80,000
+Agriculture or Forestry	Master's degree	78035.8333333333	$70,000 - $80,000	70000	5	10	5	Agriculture or Forestry-$70,000 - $80,000	Master's degree-$70,000 - $80,000
+Art & Design	College degree	73200.3692307692	$70,000 - $80,000	70000	5	7	3	Art & Design-$70,000 - $80,000	College degree-$70,000 - $80,000
+Art & Design	Master's degree	74877.0151515152	$70,000 - $80,000	70000	5	7	5	Art & Design-$70,000 - $80,000	Master's degree-$70,000 - $80,000
+Art & Design	Some college	72855.5555555556	$70,000 - $80,000	70000	5	7	2	Art & Design-$70,000 - $80,000	Some college-$70,000 - $80,000
+Education (Primary/Secondary)	Master's degree	72584.8386308068	$70,000 - $80,000	70000	5	3	5	Education (Primary/Secondary)-$70,000 - $80,000	Master's degree-$70,000 - $80,000
+Engineering or Manufacturing	Some college	77569.5245901639	$70,000 - $80,000	70000	5	21	2	Engineering or Manufacturing-$70,000 - $80,000	Some college-$70,000 - $80,000
+Government and Public Administration	College degree	72832.3151927438	$70,000 - $80,000	70000	5	14	3	Government and Public Administration-$70,000 - $80,000	College degree-$70,000 - $80,000
+Government and Public Administration	High School	70968.7142857143	$70,000 - $80,000	70000	5	14	1	Government and Public Administration-$70,000 - $80,000	High School-$70,000 - $80,000
+Health care	College degree	74056.7015625	$70,000 - $80,000	70000	5	18	3	Health care-$70,000 - $80,000	College degree-$70,000 - $80,000
+Insurance	Some college	70321.2549019608	$70,000 - $80,000	70000	5	16	2	Insurance-$70,000 - $80,000	Some college-$70,000 - $80,000
+Law	High School	73750	$70,000 - $80,000	70000	5	24	1	Law-$70,000 - $80,000	High School-$70,000 - $80,000
+Marketing, Advertising & PR	Some college	74422.8571428571	$70,000 - $80,000	70000	5	17	2	Marketing, Advertising & PR-$70,000 - $80,000	Some college-$70,000 - $80,000
+Media & Digital	High School	78487.6	$70,000 - $80,000	70000	5	15	1	Media & Digital-$70,000 - $80,000	High School-$70,000 - $80,000
+Nonprofits	Master's degree	76222.9537767756	$70,000 - $80,000	70000	5	8	5	Nonprofits-$70,000 - $80,000	Master's degree-$70,000 - $80,000
+Property or Construction	College degree	73197.525974026	$70,000 - $80,000	70000	5	9	3	Property or Construction-$70,000 - $80,000	College degree-$70,000 - $80,000
+Property or Construction	Professional degree (MD, JD, etc.)	79833.3333333333	$70,000 - $80,000	70000	5	9	4	Property or Construction-$70,000 - $80,000	Professional degree (MD, JD, etc.)-$70,000 - $80,000
+Recruitment or HR	College degree	79723.2953586498	$70,000 - $80,000	70000	5	12	3	Recruitment or HR-$70,000 - $80,000	College degree-$70,000 - $80,000
+Recruitment or HR	Some college	71853.1666666667	$70,000 - $80,000	70000	5	12	2	Recruitment or HR-$70,000 - $80,000	Some college-$70,000 - $80,000
+Sales	College degree	75761.9020979021	$70,000 - $80,000	70000	5	13	3	Sales-$70,000 - $80,000	College degree-$70,000 - $80,000
+Sales	High School	73188.8888888889	$70,000 - $80,000	70000	5	13	1	Sales-$70,000 - $80,000	High School-$70,000 - $80,000
+Sales	Some college	76714.5161290323	$70,000 - $80,000	70000	5	13	2	Sales-$70,000 - $80,000	Some college-$70,000 - $80,000
+Social Work	High School	70000	$70,000 - $80,000	70000	5	1	1	Social Work-$70,000 - $80,000	High School-$70,000 - $80,000
+Social Work	PhD	74595	$70,000 - $80,000	70000	5	1	6	Social Work-$70,000 - $80,000	PhD-$70,000 - $80,000
+Transport or Logistics	College degree	79586.4745762712	$70,000 - $80,000	70000	5	11	3	Transport or Logistics-$70,000 - $80,000	College degree-$70,000 - $80,000
+Accounting, Banking & Finance	College degree	85234.923566879	$80,000 - $90,000	80000	6	19	3	Accounting, Banking & Finance-$80,000 - $90,000	College degree-$80,000 - $90,000
+Business or Consulting	Some college	81638.125	$80,000 - $90,000	80000	6	22	2	Business or Consulting-$80,000 - $90,000	Some college-$80,000 - $90,000
+Education (Higher Education)	PhD	85271.6307692308	$80,000 - $90,000	80000	6	5	6	Education (Higher Education)-$80,000 - $90,000	PhD-$80,000 - $90,000
+Education (Higher Education)	Professional degree (MD, JD, etc.)	88255.6315789474	$80,000 - $90,000	80000	6	5	4	Education (Higher Education)-$80,000 - $90,000	Professional degree (MD, JD, etc.)-$80,000 - $90,000
+Engineering or Manufacturing	High School	83263.7692307692	$80,000 - $90,000	80000	6	21	1	Engineering or Manufacturing-$80,000 - $90,000	High School-$80,000 - $90,000
+Entertainment	Master's degree	89481.28125	$80,000 - $90,000	80000	6	23	5	Entertainment-$80,000 - $90,000	Master's degree-$80,000 - $90,000
+Government and Public Administration	Master's degree	86380.0113798009	$80,000 - $90,000	80000	6	14	5	Government and Public Administration-$80,000 - $90,000	Master's degree-$80,000 - $90,000
+Insurance	College degree	86058.686440678	$80,000 - $90,000	80000	6	16	3	Insurance-$80,000 - $90,000	College degree-$80,000 - $90,000
+Leisure, Sport & Tourism	Master's degree	84322.3125	$80,000 - $90,000	80000	6	6	5	Leisure, Sport & Tourism-$80,000 - $90,000	Master's degree-$80,000 - $90,000
+Marketing, Advertising & PR	College degree	89645.7030497592	$80,000 - $90,000	80000	6	17	3	Marketing, Advertising & PR-$80,000 - $90,000	College degree-$80,000 - $90,000
+Media & Digital	College degree	83499.1703703704	$80,000 - $90,000	80000	6	15	3	Media & Digital-$80,000 - $90,000	College degree-$80,000 - $90,000
+Media & Digital	Master's degree	89943.0074074074	$80,000 - $90,000	80000	6	15	5	Media & Digital-$80,000 - $90,000	Master's degree-$80,000 - $90,000
+Recruitment or HR	Master's degree	85880.7415730337	$80,000 - $90,000	80000	6	12	5	Recruitment or HR-$80,000 - $90,000	Master's degree-$80,000 - $90,000
+Retail	Master's degree	89606.3043478261	$80,000 - $90,000	80000	6	2	5	Retail-$80,000 - $90,000	Master's degree-$80,000 - $90,000
+Sales	PhD	86666.6666666667	$80,000 - $90,000	80000	6	13	6	Sales-$80,000 - $90,000	PhD-$80,000 - $90,000
+Utilities & Telecommunications	College degree	87532.8503937008	$80,000 - $90,000	80000	6	20	3	Utilities & Telecommunications-$80,000 - $90,000	College degree-$80,000 - $90,000
+Utilities & Telecommunications	High School	81573.4444444444	$80,000 - $90,000	80000	6	20	1	Utilities & Telecommunications-$80,000 - $90,000	High School-$80,000 - $90,000
+Utilities & Telecommunications	Some college	80684.8888888889	$80,000 - $90,000	80000	6	20	2	Utilities & Telecommunications-$80,000 - $90,000	Some college-$80,000 - $90,000
+Business or Consulting	College degree	95387.5076452599	$90,000 - $100,000	90000	7	22	3	Business or Consulting-$90,000 - $100,000	College degree-$90,000 - $100,000
+Education (Primary/Secondary)	PhD	91983.1034482759	$90,000 - $100,000	90000	7	3	6	Education (Primary/Secondary)-$90,000 - $100,000	PhD-$90,000 - $100,000
+Engineering or Manufacturing	College degree	91290.6815718157	$90,000 - $100,000	90000	7	21	3	Engineering or Manufacturing-$90,000 - $100,000	College degree-$90,000 - $100,000
+Health care	Master's degree	97997.9936440678	$90,000 - $100,000	90000	7	18	5	Health care-$90,000 - $100,000	Master's degree-$90,000 - $100,000
+Insurance	Master's degree	96640.495049505	$90,000 - $100,000	90000	7	16	5	Insurance-$90,000 - $100,000	Master's degree-$90,000 - $100,000
+Law	Master's degree	96802.5294117647	$90,000 - $100,000	90000	7	24	5	Law-$90,000 - $100,000	Master's degree-$90,000 - $100,000
+Marketing, Advertising & PR	Master's degree	96474.53125	$90,000 - $100,000	90000	7	17	5	Marketing, Advertising & PR-$90,000 - $100,000	Master's degree-$90,000 - $100,000
+Marketing, Advertising & PR	Professional degree (MD, JD, etc.)	96000	$90,000 - $100,000	90000	7	17	4	Marketing, Advertising & PR-$90,000 - $100,000	Professional degree (MD, JD, etc.)-$90,000 - $100,000
+Media & Digital	Some college	95484.6153846154	$90,000 - $100,000	90000	7	15	2	Media & Digital-$90,000 - $100,000	Some college-$90,000 - $100,000
+Nonprofits	PhD	91874.3214285714	$90,000 - $100,000	90000	7	8	6	Nonprofits-$90,000 - $100,000	PhD-$90,000 - $100,000
+Property or Construction	Master's degree	90929.4098360656	$90,000 - $100,000	90000	7	9	5	Property or Construction-$90,000 - $100,000	Master's degree-$90,000 - $100,000
+Recruitment or HR	PhD	99187.5	$90,000 - $100,000	90000	7	12	6	Recruitment or HR-$90,000 - $100,000	PhD-$90,000 - $100,000
+Recruitment or HR	Professional degree (MD, JD, etc.)	93540	$90,000 - $100,000	90000	7	12	4	Recruitment or HR-$90,000 - $100,000	Professional degree (MD, JD, etc.)-$90,000 - $100,000
+Accounting, Banking & Finance	Master's degree	107645.762666667	$100,000 - $110,000	1e+05	8	19	5	Accounting, Banking & Finance-$100,000 - $110,000	Master's degree-$100,000 - $110,000
+Art & Design	Professional degree (MD, JD, etc.)	1e+05	$100,000 - $110,000	1e+05	8	7	4	Art & Design-$100,000 - $110,000	Professional degree (MD, JD, etc.)-$100,000 - $110,000
+Engineering or Manufacturing	Master's degree	106485.112219451	$100,000 - $110,000	1e+05	8	21	5	Engineering or Manufacturing-$100,000 - $110,000	Master's degree-$100,000 - $110,000
+Entertainment	College degree	107973.4921875	$100,000 - $110,000	1e+05	8	23	3	Entertainment-$100,000 - $110,000	College degree-$100,000 - $110,000
+Entertainment	Some college	108005.263157895	$100,000 - $110,000	1e+05	8	23	2	Entertainment-$100,000 - $110,000	Some college-$100,000 - $110,000
+Government and Public Administration	PhD	109421.74025974	$100,000 - $110,000	1e+05	8	14	6	Government and Public Administration-$100,000 - $110,000	PhD-$100,000 - $110,000
+Government and Public Administration	Professional degree (MD, JD, etc.)	101964.126582278	$100,000 - $110,000	1e+05	8	14	4	Government and Public Administration-$100,000 - $110,000	Professional degree (MD, JD, etc.)-$100,000 - $110,000
+Hospitality & Events	Master's degree	103278.269230769	$100,000 - $110,000	1e+05	8	4	5	Hospitality & Events-$100,000 - $110,000	Master's degree-$100,000 - $110,000
+Insurance	PhD	105955.555555556	$100,000 - $110,000	1e+05	8	16	6	Insurance-$100,000 - $110,000	PhD-$100,000 - $110,000
+Insurance	Professional degree (MD, JD, etc.)	108160.714285714	$100,000 - $110,000	1e+05	8	16	4	Insurance-$100,000 - $110,000	Professional degree (MD, JD, etc.)-$100,000 - $110,000
+Marketing, Advertising & PR	High School	102666.666666667	$100,000 - $110,000	1e+05	8	17	1	Marketing, Advertising & PR-$100,000 - $110,000	High School-$100,000 - $110,000
+Media & Digital	PhD	106800	$100,000 - $110,000	1e+05	8	15	6	Media & Digital-$100,000 - $110,000	PhD-$100,000 - $110,000
+Nonprofits	Professional degree (MD, JD, etc.)	105143.392156863	$100,000 - $110,000	1e+05	8	8	4	Nonprofits-$100,000 - $110,000	Professional degree (MD, JD, etc.)-$100,000 - $110,000
+Sales	Master's degree	107877.8125	$100,000 - $110,000	1e+05	8	13	5	Sales-$100,000 - $110,000	Master's degree-$100,000 - $110,000
+Sales	Professional degree (MD, JD, etc.)	105000	$100,000 - $110,000	1e+05	8	13	4	Sales-$100,000 - $110,000	Professional degree (MD, JD, etc.)-$100,000 - $110,000
+Transport or Logistics	Master's degree	101166.372093023	$100,000 - $110,000	1e+05	8	11	5	Transport or Logistics-$100,000 - $110,000	Master's degree-$100,000 - $110,000
+Utilities & Telecommunications	Master's degree	103089.573770492	$100,000 - $110,000	1e+05	8	20	5	Utilities & Telecommunications-$100,000 - $110,000	Master's degree-$100,000 - $110,000
+Business or Consulting	Master's degree	112023.448717949	$110,000 - $120,000	110000	9	22	5	Business or Consulting-$110,000 - $120,000	Master's degree-$110,000 - $120,000
+Marketing, Advertising & PR	PhD	114877.777777778	$110,000 - $120,000	110000	9	17	6	Marketing, Advertising & PR-$110,000 - $120,000	PhD-$110,000 - $120,000
+Business or Consulting	PhD	129456.52173913	$120,000 - $130,000	120000	10	22	6	Business or Consulting-$120,000 - $130,000	PhD-$120,000 - $130,000
+Computing or Tech	College degree	126404.561068702	$120,000 - $130,000	120000	10	25	3	Computing or Tech-$120,000 - $130,000	College degree-$120,000 - $130,000
+Computing or Tech	High School	123698.547945205	$120,000 - $130,000	120000	10	25	1	Computing or Tech-$120,000 - $130,000	High School-$120,000 - $130,000
+Computing or Tech	Some college	123888.955128205	$120,000 - $130,000	120000	10	25	2	Computing or Tech-$120,000 - $130,000	Some college-$120,000 - $130,000
+Entertainment	PhD	122666.666666667	$120,000 - $130,000	120000	10	23	6	Entertainment-$120,000 - $130,000	PhD-$120,000 - $130,000
+Agriculture or Forestry	PhD	131811.818181818	$130,000 - $140,000	130000	11	10	6	Agriculture or Forestry-$130,000 - $140,000	PhD-$130,000 - $140,000
+Computing or Tech	Master's degree	136760.118906064	$130,000 - $140,000	130000	11	25	5	Computing or Tech-$130,000 - $140,000	Master's degree-$130,000 - $140,000
+Engineering or Manufacturing	PhD	130911.626865672	$130,000 - $140,000	130000	11	21	6	Engineering or Manufacturing-$130,000 - $140,000	PhD-$130,000 - $140,000
+Engineering or Manufacturing	Professional degree (MD, JD, etc.)	132115.5	$130,000 - $140,000	130000	11	21	4	Engineering or Manufacturing-$130,000 - $140,000	Professional degree (MD, JD, etc.)-$130,000 - $140,000
+Health care	PhD	138190.98630137	$130,000 - $140,000	130000	11	18	6	Health care-$130,000 - $140,000	PhD-$130,000 - $140,000
+Media & Digital	Professional degree (MD, JD, etc.)	139838.571428571	$130,000 - $140,000	130000	11	15	4	Media & Digital-$130,000 - $140,000	Professional degree (MD, JD, etc.)-$130,000 - $140,000
+Transport or Logistics	Professional degree (MD, JD, etc.)	130000	$130,000 - $140,000	130000	11	11	4	Transport or Logistics-$130,000 - $140,000	Professional degree (MD, JD, etc.)-$130,000 - $140,000
+Utilities & Telecommunications	PhD	130775	$130,000 - $140,000	130000	11	20	6	Utilities & Telecommunications-$130,000 - $140,000	PhD-$130,000 - $140,000
+Entertainment	High School	142666.666666667	$140,000 - $150,000	140000	12	23	1	Entertainment-$140,000 - $150,000	High School-$140,000 - $150,000
+Entertainment	Professional degree (MD, JD, etc.)	147666.666666667	$140,000 - $150,000	140000	12	23	4	Entertainment-$140,000 - $150,000	Professional degree (MD, JD, etc.)-$140,000 - $150,000
+Law	PhD	147070.6	$140,000 - $150,000	140000	12	24	6	Law-$140,000 - $150,000	PhD-$140,000 - $150,000
+Law	Professional degree (MD, JD, etc.)	146159.068222621	$140,000 - $150,000	140000	12	24	4	Law-$140,000 - $150,000	Professional degree (MD, JD, etc.)-$140,000 - $150,000
+Utilities & Telecommunications	Professional degree (MD, JD, etc.)	146000	$140,000 - $150,000	140000	12	20	4	Utilities & Telecommunications-$140,000 - $150,000	Professional degree (MD, JD, etc.)-$140,000 - $150,000
+Accounting, Banking & Finance	PhD	151125	$150,000 - $160,000	150000	13	19	6	Accounting, Banking & Finance-$150,000 - $160,000	PhD-$150,000 - $160,000
+Accounting, Banking & Finance	Professional degree (MD, JD, etc.)	150409.722222222	$150,000 - $160,000	150000	13	19	4	Accounting, Banking & Finance-$150,000 - $160,000	Professional degree (MD, JD, etc.)-$150,000 - $160,000
+Business or Consulting	Professional degree (MD, JD, etc.)	152300	$150,000 - $160,000	150000	13	22	4	Business or Consulting-$150,000 - $160,000	Professional degree (MD, JD, etc.)-$150,000 - $160,000
+Computing or Tech	PhD	156593.275590551	$150,000 - $160,000	150000	13	25	6	Computing or Tech-$150,000 - $160,000	PhD-$150,000 - $160,000
+Health care	Professional degree (MD, JD, etc.)	154245.748344371	$150,000 - $160,000	150000	13	18	4	Health care-$150,000 - $160,000	Professional degree (MD, JD, etc.)-$150,000 - $160,000
+Computing or Tech	Professional degree (MD, JD, etc.)	165288.571428571	$160,000 - $170,000	160000	14	25	4	Computing or Tech-$160,000 - $170,000	Professional degree (MD, JD, etc.)-$160,000 - $170,000
+Leisure, Sport & Tourism	Professional degree (MD, JD, etc.)	215000	$210,000 - $220,000	210000	15	6	4	Leisure, Sport & Tourism-$210,000 - $220,000	Professional degree (MD, JD, etc.)-$210,000 - $220,000

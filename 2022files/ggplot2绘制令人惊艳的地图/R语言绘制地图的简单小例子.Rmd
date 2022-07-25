@@ -1,0 +1,151 @@
+---
+title: "R语言绘制地图的简单小例子"
+author: "Kieran Healy"
+date: "`r Sys.Date()`"
+output:
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r echo=F}
+knitr::opts_chunk$set(prompt = T,comment = "",collapse = T,
+                      message = F,warning = F)
+```
+加载R包
+```{r}
+my_packages <- c("tidyverse", "broom", "coefplot", "cowplot",
+                 "gapminder", "GGally", "ggrepel", "ggridges", "gridExtra",
+                 "here", "interplot", "margins", "maps", "mapproj",
+                 "mapdata", "MASS", "quantreg", "rlang", "scales",
+                 "survey", "srvyr", "viridis", "viridisLite", "devtools","ggplot2",
+                 "ggthemes")
+for (package in my_packages) {
+  if (!require(package,character.only=T, quietly=T)) {
+    install.packages(package)
+    library(package, character.only=T)
+  }
+}
+```
+
+
+## 7.1 绘制美国各州地图
+
+加载数据，选择几列并随机选择几行
+```{r}
+load("C:/Users/ZXS/Desktop/R语言绘制地图的简单小例子/election.rda")
+election %>% select(state,total_vote,
+                    r_points,pct_trump,party,census) %>% 
+  sample_n(5)
+party_colors <- c("#2E74C0", "#CB454A") 
+```
+
+绘制基础地图
+```{r}
+us_states <- map_data("state")
+head(us_states)
+p <- ggplot(data = us_states,
+            mapping = aes(x = long, y = lat,
+                          group = group))
+
+p + geom_polygon(fill = "white", color = "black")
+```
+
+以region为填充
+```{r}
+p <- ggplot(data = us_states,
+            aes(x = long, y = lat,
+                group = group, fill = region))
+
+p + geom_polygon(color = "gray90", size = 0.1) + guides(fill = FALSE)
+```
+
+将投影设置为Albers
+```{r}
+p <- ggplot(data = us_states,
+            mapping = aes(x = long, y = lat,
+                          group = group, fill = region))
+
+p + geom_polygon(color = "gray90", size = 0.1) +
+    coord_map(projection = "albers", lat0 = 39, lat1 = 45) +
+    guides(fill = FALSE)
+```
+
+将2020年美国大选结果添加到地图上
+```{r}
+election$region <- tolower(election$state)
+us_states_elec <- left_join(us_states, election)
+p <- ggplot(data = us_states_elec,
+            aes(x = long, y = lat,
+                group = group, fill = party))
+
+p + geom_polygon(color = "gray90", size = 0.1) +
+    coord_map(projection = "albers", lat0 = 39, lat1 = 45) 
+```
+
+添加题目，将图例移到下面，修改颜色
+```{r}
+p0 <- ggplot(data = us_states_elec,
+             mapping = aes(x = long, y = lat,
+                           group = group, fill = party))
+p1 <- p0 + geom_polygon(color = "gray90", size = 0.1) +
+    coord_map(projection = "albers", lat0 = 39, lat1 = 45) 
+p2 <- p1 + scale_fill_manual(values = party_colors) +
+    labs(title = "Election Results 2016", fill = NULL)
+p2 + theme_map() 
+```
+
+映射连续变量-川普的选票
+```{r}
+p0 <- ggplot(data = us_states_elec,
+             mapping = aes(x = long, y = lat,
+                           group = group, fill = pct_trump))
+p1 <- p0 + geom_polygon() +
+  coord_map(projection = "albers", lat0 = 39, lat1 = 45) 
+p2 <- p1+scale_fill_gradient(low = "white", high = "#CB454A")+
+  labs(title = "Trump vote")
+p2 + theme_map() +labs(fill="Percent")
+```
+
+## 7.2 等值线图（ur-choropleths）
+
+加载数据
+```{r}
+load("C:/Users/ZXS/Desktop/R语言绘制地图的简单小例子/county_data.rda")
+
+load("C:/Users/ZXS/Desktop/R语言绘制地图的简单小例子/county_map.rda")
+county_map %>% sample_n(5)
+county_data %>% select(
+  id,name,state,pop_dens,pct_black) %>% 
+  sample_n(5)
+```
+
+合并
+```{r}
+county_full <- left_join(county_map,county_data,by="id")
+```
+
+绘制每平方英里中的人口密度图
+```{r}
+p <- ggplot(data = county_full,
+            mapping = aes(x = long, y = lat,
+                          fill = pop_dens, 
+                          group = group))
+
+p1 <- p + geom_polygon() + coord_equal()
+
+p2 <- p1 + scale_fill_brewer(palette="Blues",
+                             labels = c("0-10", "10-50", "50-100", "100-500",
+                                        "500-1,000", "1,000-5,000", ">5,000"))
+
+p2 + labs(fill = "Population per\nsquare mile") +
+  theme_map() +
+  guides(fill = guide_legend(nrow = 1)) + 
+  theme(legend.position = "bottom")
+```
+
+参考资料：Data Visualization 作者： Kieran Healy 链接：https://socviz.co/index.html#preface

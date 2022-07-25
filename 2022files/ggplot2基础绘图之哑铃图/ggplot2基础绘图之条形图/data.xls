@@ -1,0 +1,11 @@
+country_name	city	continent	line	start_year	end_year	duration	line_label
+Italy	Milan	Europe	Passante Railway	1984	2008	24	MILAN PASSANTE RAILWAY
+Turkey	Istanbul	Asia	M2-M6	1992	2015	23	ISTANBUL M2-M6
+Japan	Osaka	Asia	Higashi Line	1999	2019	20	OSAKA HIGASHI LINE
+Brazil	Salvador	Americas	Lines 1-2	2000	2017	17	SALVADOR LINES 1-2
+Turkey	Bursa	Asia	Bursaray	1997	2014	17	BURSA BURSARAY
+Netherlands	Amsterdam	Europe	North-South	2003	2018	15	AMSTERDAM NORTH-SOUTH
+Greece	Thessaloniki	Europe	Main line	2006	2020	14	THESSALONIKI MAIN LINE
+France	Paris	Europe	Line 14	1993	2007	14	PARIS LINE 14
+Turkey	Ankara	Asia	M4	2003	2017	14	ANKARA M4
+Germany	Cologne	Europe	North-South Stadtbahn	2003	2015	12	COLOGNE NORTH-SOUTH STADTBAHN

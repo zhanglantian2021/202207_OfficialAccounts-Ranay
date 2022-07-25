@@ -1,0 +1,144 @@
+---
+title: "ggplot2给图像添加阴影"
+author:
+  - 阎俊安 2022-01-09
+documentclass: ctexart
+keywords:
+  - ggplot2
+
+geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
+output:
+  rticles::ctex:
+    fig_caption: yes
+    number_sections: yes
+    toc: yes
+---
+
+
+
+本节来介绍如何使用**GGally**下的**geom_stripped_rows**函数来完美的给图像添加阴影区域，下面通过1个小栗子来进行展示
+
+
+# 安装并加载R包
+
+```{r,warning=F,message=F}
+
+package.list=c("tidyverse","ggsci","GGally","GEOquery")
+
+for (package in package.list) {
+  if (!require(package,character.only=T, quietly=T)) {
+    install.packages(package)
+    library(package, character.only=T)
+  }
+}
+```
+
+# geom_stripped_*函数具体参数
+
+```{r,eval=FALSE}
+geom_stripped_rows(
+  mapping = NULL,
+  data = NULL,
+  stat = "identity",
+  position = "identity",
+  ...,
+  show.legend = NA,
+  inherit.aes = TRUE,
+  xfrom = -Inf,
+  xto = Inf,
+  width = 1,
+  nudge_y = 0
+)
+
+geom_stripped_cols(
+  mapping = NULL,
+  data = NULL,
+  stat = "identity",
+  position = "identity",
+  ...,
+  show.legend = NA,
+  inherit.aes = TRUE,
+  yfrom = -Inf,
+  yto = Inf,
+  width = 1,
+  nudge_x = 0
+)
+```
+
+# 加载数据
+* 在这里使用昨天下载的**GEO**数据集
+
+```{r,warning=F,message=F}
+load("GSE33126.rdata")
+gset <- gset[[1]]
+```
+### 数据清洗
+
+```{r,warning=F,message=F}
+
+sampleinfo <- pData(gset) %>% # 提取样本信息表
+  select(source_name_ch1,characteristics_ch1.1) %>% 
+  rename(group = source_name_ch1,patient=characteristics_ch1.1) %>% 
+  mutate_at(vars(patient),~str_split(.," ",simplify = T)[,2]) %>%
+  rownames_to_column(var="name")
+
+gene_exp <- exprs(gset) %>% as.data.frame() %>% rownames_to_column(var="id")
+```
+
+# 数据可视化
+
+* 只是为了图像展示随机处理的数据无实际意义
+
+```{r,warning=F,message=F,out.width='80%',out.height='80%',fig.height=5, fig.width=9}
+p <- gene_exp %>% sample_n(30) %>% column_to_rownames("id") %>% 
+  mutate_if(is.numeric, function(x) x+1) %>%
+  log10() %>% rownames_to_column(var="id") %>% 
+  pivot_longer(-id) %>% left_join(.,sampleinfo,by="name") %>% 
+  mutate(patient=as.factor(patient)) %>% 
+  ggplot(aes(name,value,fill=patient))+
+  stat_summary(fun.data="mean_cl_normal",geom="errorbar",width=0.2) +
+  stat_summary(fun = "mean",geom = "point",size=5,pch=21)+
+  facet_wrap(.~group,scales = "free",labeller = label_wrap_gen(),nrow = 1)+
+  scale_fill_npg()+
+  theme_test()+
+  theme(panel.spacing.x = unit(0.2,"cm"),
+        panel.spacing.y = unit(0.1, "cm"),
+        axis.title = element_blank(),
+        strip.text.x = element_text(size=9,color="black"),
+        axis.text = element_text(color="black"),
+        axis.text.x=element_text(angle = 45,vjust=1,hjust=1),
+        axis.ticks.x=element_blank(),
+        legend.text = element_text(color="black",size=9),
+        legend.title=element_blank(),
+        legend.spacing.x=unit(0.1,'cm'),
+        legend.key=element_blank(),
+        legend.key.width=unit(0.4,'cm'),
+        legend.key.height=unit(0.4,'cm'),
+        legend.position = "top",
+        plot.margin=unit(c(0.3,0.3,0.3,0.3),units=,"cm"))+
+  guides(fill = guide_legend(direction = "horizontal"))+
+  guides(fill=guide_legend(nrow=1, byrow=TRUE))
+
+p
+```
+
+# 不同的展示形式
+
+```{r,warning=F,message=F,out.width='80%',out.height='80%',fig.height=5, fig.width=9}
+p + geom_stripped_cols()
+```
+
+
+```{r,warning=F,message=F,out.width='80%',out.height='80%',fig.height=5, fig.width=9}
+p + geom_stripped_cols(width = 5)
+```
+
+```{r,warning=F,message=F,out.width='80%',out.height='80%',fig.height=5, fig.width=9}
+p + geom_stripped_cols(width = 1, nudge_x = 2)
+```
+
+* 添加scale_x_discrete(expand = expansion(0, 0.5))可以去除边框两边空隙
+```{r,warning=F,message=F,out.width='80%',out.height='80%',fig.height=5, fig.width=9}
+p + geom_stripped_cols(odd = "blue", even = "yellow", alpha = .1)+
+  scale_x_discrete(expand = expansion(0, 0.5))
+```
